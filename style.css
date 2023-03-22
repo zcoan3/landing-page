@@ -103,3 +103,30 @@ ul {
     align-items: center;
     width: 150px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-family: 'Bitter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 40px 80px; */
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 20px;
+    width: 800px;
+    height: 10px;
+}
+
+.quote > .quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    width: 800px;
+}
