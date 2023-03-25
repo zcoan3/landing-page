@@ -60,14 +60,14 @@ button {
     /* flex-grow: 0; */
     height: 40px;
     width: 110px;
-    background-color: #8FB16A;
     border-radius: 8px;
-    border: 0px;
     margin-top: 10px;
-    color: #0B2532;
     font-weight: bold;
     font-size: 18px;
-
+    /* color: #EEEEEE; */
+    background-color: #C98988;
+    padding: 5px 10px;
+    border: 0px;
 }
 
 ul {
@@ -129,22 +129,8 @@ ul {
     font-style: normal;
     text-align: right;
     padding-top: 10px;
+    padding-right: 30px;
 }
-
-/* .quote > .quote-text {
-
-    padding: 20px;
-    width: 800px;
-    height: 10px;
-    /* flex: initial; 
-}*/
-
-/* .quote > .quote-author {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
-    width: 800px;
-}  */
 
 .call-to-action-container {
     display: flex;
@@ -185,7 +171,18 @@ ul {
 
 .cta-button > .lower-cta button {
     color: #EEEEEE;
+    background-color: #C98988;
     padding: 5px 10px;
     border: 2px solid white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B2C2F;
+    color: #F7F6DD;
+    font-family: 'Bitter';
+    padding: 20px;
 }
 
